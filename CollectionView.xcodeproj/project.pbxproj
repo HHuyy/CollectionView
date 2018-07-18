@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		DBADC26B20F99F3D00900C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADC26A20F99F3D00900C9E /* AppDelegate.swift */; };
-		DBADC26D20F99F3D00900C9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADC26C20F99F3D00900C9E /* ViewController.swift */; };
 		DBADC27020F99F3D00900C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBADC26E20F99F3D00900C9E /* Main.storyboard */; };
 		DBADC27320F99F3D00900C9E /* CollectionView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBADC27120F99F3D00900C9E /* CollectionView.xcdatamodeld */; };
 		DBADC27520F99F3D00900C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBADC27420F99F3D00900C9E /* Assets.xcassets */; };
 		DBADC27820F99F3D00900C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBADC27620F99F3D00900C9E /* LaunchScreen.storyboard */; };
+		DBADC28020F99F5800900C9E /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADC27F20F99F5800900C9E /* CollectionViewController.swift */; };
+		DBADC28220F99F6000900C9E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADC28120F99F6000900C9E /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DBADC26720F99F3D00900C9E /* CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBADC26A20F99F3D00900C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBADC26C20F99F3D00900C9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBADC26F20F99F3D00900C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBADC27220F99F3D00900C9E /* CollectionView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollectionView.xcdatamodel; sourceTree = "<group>"; };
 		DBADC27420F99F3D00900C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBADC27720F99F3D00900C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBADC27920F99F3D00900C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBADC27F20F99F5800900C9E /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		DBADC28120F99F6000900C9E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				DBADC26A20F99F3D00900C9E /* AppDelegate.swift */,
-				DBADC26C20F99F3D00900C9E /* ViewController.swift */,
+				DBADC27F20F99F5800900C9E /* CollectionViewController.swift */,
+				DBADC28120F99F6000900C9E /* CollectionViewCell.swift */,
 				DBADC26E20F99F3D00900C9E /* Main.storyboard */,
 				DBADC27420F99F3D00900C9E /* Assets.xcassets */,
 				DBADC27620F99F3D00900C9E /* LaunchScreen.storyboard */,
@@ -139,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBADC28020F99F5800900C9E /* CollectionViewController.swift in Sources */,
 				DBADC27320F99F3D00900C9E /* CollectionView.xcdatamodeld in Sources */,
-				DBADC26D20F99F3D00900C9E /* ViewController.swift in Sources */,
+				DBADC28220F99F6000900C9E /* CollectionViewCell.swift in Sources */,
 				DBADC26B20F99F3D00900C9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
